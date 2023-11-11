@@ -49,7 +49,7 @@ header div span:nth-child(4) {
 }
 
 #body {
-    height: 465px;
+    height: 470px;
     position: relative;
 }
 #body img{
@@ -57,6 +57,7 @@ header div span:nth-child(4) {
     left: 50%;
     transform: translateX(-50%);
 }
+
 #search-bar{
     display: flex;
     width: 584px;
@@ -96,6 +97,7 @@ header div span:nth-child(4) {
     height: 7vh;
     border: 0;
     outline: none;  
+    height: 30px;
 }
 #google-voice{
     position: relative;
@@ -143,6 +145,8 @@ header div span:nth-child(4) {
 #footer{
     background-color: rgb(255, 254, 254);
     font-size: 15px;
+    position: relative;
+    bottom: 0cap;
 }
 #footer span{
     padding: 15px 15px 15px 30px;
