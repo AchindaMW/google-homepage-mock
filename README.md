@@ -14,8 +14,9 @@ Welcome to the Mock Website README! This document provides an overview of the mo
 ## Table of Contents
 1. **Introduction**
 2. **Features**
-3. **License**
-4. **Technologies used in the project**
+3. **Technologies used in the project**
+4. **previews of the site**
+5. **License**
 
 ## 1. Introduction
 
@@ -35,7 +36,16 @@ The mock website includes the following features:
 HTML5
 CSS3
 
-## 3. License
+## 4. previews of the site
+### Light mode
+
+![Light-mode](img/screenshots/google-light.png)
+
+### Dark mode
+
+![Dark-mode](img/screenshots/google-dark.png)
+
+## 5. License
 
 The mock website is available under the MIT License. For details, please see the [LICENSE](License.txt) file included in this repository.
 
