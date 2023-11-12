@@ -145,8 +145,9 @@ header div span:nth-child(4) {
 #footer{
     background-color: rgb(255, 254, 254);
     font-size: 15px;
-    position: relative;
+    position: absolute;
     bottom: 0cap;
+    width: 100%;
 }
 #footer span{
     padding: 15px 15px 15px 30px;
@@ -178,4 +179,13 @@ header div span:nth-child(4) {
 #last-footer span:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+
+@media all and (prefers-color-scheme: dark){
+    #footer {
+        background-color: #4d5156;
+    }
+    header {
+        /* background-color: black; */
+    }
 }
