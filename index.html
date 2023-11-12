@@ -1,73 +1,74 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google home</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/home.css">
+    <title>Google Home</title>
+    <link rel="icon" href="img/favicon.svg">
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="icon" href="img/icons8-google.svg">
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 
 <body>
     <header>
-        <div id="header">
-            <span id="gmail">Gmail</span>
-            <span id="images">Images</span>
-            <span title="Google Apps" id="app" class="material-symbols-outlined">
+        <div>
+            <span>Gmail</span>
+            <span>Images</span>
+            <span title="Google apps" class="material-symbols-outlined">
                 apps
             </span>
-            <span>Sign in</span>
+            <button>Sign in</button>
         </div>
     </header>
-    <div id="body">
-        <img id="google-light" src="img/gggg" alt="google-image">
-        <img id="google-dark"
-            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png"
-            alt="google-logo">
-        <form action="https://www.google.com/search" method="get">
-            <div id="search-bar">
+    <main>
+        <img id="google-light" src="/img/google-light" alt="Google-light">
+        <img id="google-dark" src="/img/google-dark.png" alt="google-dark">
+        <form action="https://www.google.com/search">
+            <div id="search">
                 <span class="material-symbols-outlined">
                     search
-                </span><span>
-                    <input id="search" type="text" name="q" style="color: black;"></span><span>
-                    <img title="Search by voice" id="google-voice" src="img/google voice"
-                        alt="google-voice"></span><span>
-                    <img title="Search by image" id="google-lense" src="img/google lense" alt="google-lense">
+                </span>
+                <span>
+                    <input type="text" name="q">
+                </span>
+                <span>
+                    <img title="Search by voice" src="img/google voice" alt="keyboard voice">
+                </span>
+                <span>
+                    <img title="Search by image" src="img/google lense" alt="google lens">
                 </span>
             </div>
-            <div id="buttons">
-                <button class="button">Google Search</button>
-                <button class="button">I'm Feeling Luckey</button>
+            <div>
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
             </div>
         </form>
-        <div id="text">
-            <span>Google offered in:</span>
-            <span id="sinhala">සිංහල</span>
-            <span id="tamil">மொழி</span>
+        <div id="language">
+            <span>Google offered in: </span>
+            <span><a href="#">සිංහල</a></span>
+            <span><a href="#">தமிழ்</a></span>
         </div>
-    </div>
-    <div id="footer">
-        <div id="first-footer">
-            <span id="country">Sri Lanka</span>
+    </main>
+    <footer>
+        <div id="top-row">
+            <span>Sri Lanka</span>
         </div>
-        <div id="last-footer">
-            <div>
-                <span>About</span>
-                <span>Advertising</span>
-                <span>Business</span>
-                <span>How Search works</span>
+        <div id="bottom-row">
+            <div><span><a href="#">About</a></span>
+                <span><a href="#">Advertising</a></span>
+                <span><a href="#">Business</a></span>
+                <span><a href="#">How Search works</a></span>
             </div>
-            <div>
-                <span>Privacy</span>
-                <span>Terms</span>
-                <span>Settings</span>
+            <div><span><a href="#">Privacy</a></span>
+                <span><a href="#">Terms</a></span>
+                <span><a href="#">Settings</a></span>
             </div>
         </div>
-    </div>
+    </footer>
 </body>
 
 </html>
